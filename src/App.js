@@ -11,7 +11,7 @@ import Contact from './components/contact/contact';
 function App() {
   return (
     <div className="App">
-      <Col xs="3" sm="3" md="2" lg="2">
+      <Col xs="5" sm="4" md="3" lg="2">
         <Sidebar />
       </Col>
       <Switch>
