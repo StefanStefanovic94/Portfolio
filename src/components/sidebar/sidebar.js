@@ -10,7 +10,13 @@ const Sidebar = () => {
         <div className="wrapDiv">
             <div><img src="https://avatars.githubusercontent.com/u/60787166?v=4" /></div>
             <div><p> Stefan Stefanovic</p></div>
-            <div className="icons"><FaFacebookF /><GrLinkedinOption /> <FaInstagram /><FaSkype /> <AiFillGithub /></div>
+            <div className="icons">
+                <a href="https://www.facebook.com/stefan.stefanovic.9279/"><FaFacebookF /></a>
+                <a href="https://www.linkedin.com/in/stefan-stefanovic-000a38141/"> <GrLinkedinOption /></a>
+                <a href="https://www.instagram.com/stefanovic_stef/"> <FaInstagram /></a>
+                <a href="https://join.skype.com/invite/J2t6hIfeAKqH"> <FaSkype /></a>
+                <a href="https://github.com/StefanStefanovic94"> <AiFillGithub /></a>
+            </div>
             <div>
                 <Link to="/"> <h3>Home</h3> </Link>
                 <Link to="/about"><h3>About</h3></Link>

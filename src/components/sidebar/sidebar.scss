@@ -20,6 +20,9 @@
   }
   .icons {
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 33px;
   }
   h3 {
     color: white;
