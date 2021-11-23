@@ -1,21 +1,25 @@
 .aboutDiv {
   background: whitesmoke;
-  height: 757px;
+  min-height: 757px;
   text-align: none;
   position: relative;
-  img{
-    //   position: absolute;
-    //   left: 0px;
-  }
+  margin: auto;
+
   p {
     // background: #dfe0e2;
     // border: 3px solid #071013;
     border-radius: 8px;
     padding: 10px;
     font-size: 18px;
+    margin: auto;
+    font-family: "Courier New", Courier, monospace;
   }
   .infoDiv {
-
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .center {
+    margin: auto;
   }
 }
