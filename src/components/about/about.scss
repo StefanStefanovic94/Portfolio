@@ -3,6 +3,7 @@
   text-align: none;
   position: relative;
   margin: auto;
+  min-height: 757px;
 
   p {
     // background: #dfe0e2;
@@ -17,6 +18,20 @@
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    font-family: cursive;
+    .dateSchool {
+      color: grey;
+    }
+    div div{
+      margin-bottom: 20px;
+    }
+    .nameSchool{
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .skils{
+      
+    }
   }
   .center {
     margin: auto;
