@@ -68,14 +68,14 @@ const About = () => {
                             <div>
                                 <h1>Skills</h1>
                                 <div className="skils">
-                                    JavaScript <br />
-                                    React<br />
-                                    Redux<br />
-                                    HTML5<br />
-                                    CSS<br />
-                                    SCSS<br />
-                                    BOOTSTRAP<br />
-                                    GIT<br />
+                                    <p> JavaScript</p> <br />
+                                    <p> React</p><br />
+                                    <p>Redux</p><br />
+                                    <p>HTML5</p><br />
+                                    <p>CSS</p><br />
+                                    <p>SCSS</p><br />
+                                    <p>BOOTSTRAP</p><br />
+                                    <p>GIT</p><br />
                                 </div>
                             </div>
                         </Col>

@@ -4,6 +4,9 @@
   position: relative;
   margin: auto;
   min-height: 757px;
+  h1{
+    margin-bottom: 25px;
+  }
 
   p {
     // background: #dfe0e2;
@@ -22,15 +25,19 @@
     .dateSchool {
       color: grey;
     }
-    div div{
+    div div {
       margin-bottom: 20px;
     }
-    .nameSchool{
+    .nameSchool {
       font-size: 20px;
       font-weight: 700;
     }
-    .skils{
-      
+    .skils {
+      p {
+        padding: 0px;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: 700;
+      }
     }
   }
   .center {
