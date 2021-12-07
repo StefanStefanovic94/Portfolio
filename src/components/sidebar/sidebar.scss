@@ -1,7 +1,9 @@
 .wrapDiv {
   background-color: #272829;
-  height: 757px;
+  min-height: 757px;
   font-family: cursive;
+  height: 100%;
+  
   a{
     text-decoration: none;
     color: black;
@@ -9,7 +11,7 @@
   img {
     margin:auto;
     display: block;
-    width: 120px;
+    width: 200px;
     border: 8px solid #2c2f3f;
     border-radius: 50%;
   }
@@ -26,10 +28,13 @@
   .icons {
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 8px 33px;
   }
   h3 {
     color: white;
+    margin-top: 20px;
   }
+ 
 }
+

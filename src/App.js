@@ -11,15 +11,17 @@ import Contact from './components/contact/contact';
 function App() {
   return (
     <div className="App">
-      <Col xs="5" sm="4" md="3" lg="2">
+      <Col xs="12" sm="5" md="4" lg="4" xl="2">
         <Sidebar />
       </Col>
-      <Switch>
-        <Route exact path="/"><Home /></Route>
-        <Route exact path="/about"><About /></Route>
-        <Route exact path="/projects"><Projects /></Route>
-        <Route exact path="/contact"><Contact /></Route>
-      </Switch>
+      <Col xs="12" sm="7" md="8" lg="8" xl="10">
+        <Switch>
+          <Route exact path="/"><Home /></Route>
+          <Route exact path="/about"><About /></Route>
+          <Route exact path="/projects"><Projects /></Route>
+          <Route exact path="/contact"><Contact /></Route>
+        </Switch>
+      </Col>
     </div>
   );
 }

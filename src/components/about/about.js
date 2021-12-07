@@ -4,15 +4,8 @@ import "./about.scss"
 
 const About = () => {
     return (
-        < Col xs="12" sm="10" md="9" lg="10">
+        < Col xs="12" sm="12" md="12" lg="12">
             <div className="aboutDiv">
-                <Col className="center" xs="12" sm="8" md="6" lg="4">
-                    <p>
-                        Highly motivated web developer with Bootcamp experience in JavaScript and React framework
-                        with more than 400 hours of lessons,
-                        and with 3 months internship in company. Still going forward and improving myself.
-                    </p>
-                </Col>
                 <Col xs="12" sm="12" md="12" lg="12">
                     <div className="infoDiv">
                         <Col xs="12" sm="8" md="6" lg="4">

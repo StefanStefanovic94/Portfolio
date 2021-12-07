@@ -4,7 +4,7 @@
   position: relative;
   margin: auto;
   min-height: 757px;
-  h1{
+  h1 {
     margin-bottom: 25px;
   }
 
@@ -22,6 +22,7 @@
     display: flex;
     flex-wrap: wrap;
     font-family: cursive;
+    justify-content: center;
     .dateSchool {
       color: grey;
     }
@@ -40,7 +41,7 @@
       }
     }
   }
-  .center {
-    margin: auto;
-  }
+  // .center {
+  //   margin: auto;
+  // }
 }
