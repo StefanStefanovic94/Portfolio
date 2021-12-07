@@ -4,6 +4,8 @@ import { FaFacebookF, FaInstagram, FaSkype } from 'react-icons/fa';
 import { GrLinkedinOption } from 'react-icons/gr'
 import { AiFillGithub } from 'react-icons/ai'
 import { Link } from "react-router-dom";
+import { AiOutlineMail } from "react-icons/ai";
+import { FiPhoneCall } from "react-icons/fi"
 
 const Sidebar = () => {
     return (
@@ -15,12 +17,14 @@ const Sidebar = () => {
                 {/* <a href="https://www.instagram.com/stefanovic_stef/" target="_blank"> <FaInstagram /></a> */}
                 <a href="https://join.skype.com/invite/J2t6hIfeAKqH" target="_blank"> <FaSkype /></a>
                 <a href="https://github.com/StefanStefanovic94" target="_blank"> <AiFillGithub /></a>
+                <a href="mailto:stefan.stef94@gmail.com" target="_blank"> <AiOutlineMail /></a>
+                <a href="tel:+381640335692" target="_blank"> <FiPhoneCall /></a>
+
             </div>
             <div>
                 <Link to="/"> <h3>Home</h3> </Link>
                 <Link to="/about"><h3>About</h3></Link>
                 <Link to="/projects"><h3>Projects</h3></Link>
-                <Link to="/contact"><h3>Contact</h3></Link>
             </div>
         </div >
     )

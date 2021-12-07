@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/home/home';
 import About from './components/about/about';
 import Projects from './components/projects/projects';
-import Contact from './components/contact/contact';
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
           <Route exact path="/"><Home /></Route>
           <Route exact path="/about"><About /></Route>
           <Route exact path="/projects"><Projects /></Route>
-          <Route exact path="/contact"><Contact /></Route>
         </Switch>
       </Col>
     </div>
